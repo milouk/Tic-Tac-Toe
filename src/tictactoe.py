@@ -4,6 +4,7 @@ import time
 
 marker = {'Player 1': 'X', 'Player 2': 'O'}
 
+#Display Board.
 def display_board(board):
     print('+' + '-' * 26 + '+\n|7\t|8\t|9\t|')
     print('|' + ' ' * 3 + board[7] + ' ' * 3 + '|' + ' ' * 3 + board[8] + ' ' * 3 + '|' + ' ' * 3 + board[9] + ' ' * 3 + '|')
